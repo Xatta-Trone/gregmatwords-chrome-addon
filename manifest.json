@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Gregmat random GRE word",
+  "version": "1.0.0",
+  "description": "Random gre words on opening new tab",
+  "icons": {
+    "48": "favicon.png",
+    "96": "favicon.png"
+  },
+  "permissions": ["storage"],
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
